@@ -6,9 +6,9 @@
         {
             Console.WriteLine("Algorithm Programs");
 
-            Console.WriteLine("Anagram program");
+            Console.WriteLine("Prime Numbers program");
 
-            Anagram.CheckAnagram();
+            PrimeNumbers.PrimeNum();
         }
     }
 }
