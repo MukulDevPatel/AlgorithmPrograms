@@ -6,9 +6,9 @@
         {
             Console.WriteLine("Algorithm Programs");
 
-            Console.WriteLine("Merge Sort program");
+            Console.WriteLine("Anagram program");
 
-            MergeSort.MergeSorting();
+            Anagram.CheckAnagram();
         }
     }
 }
