@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BridgeLabz Second batch\\AlgorithmPrograms\\AlgorithmPrograms\\AlgorithmPrograms.csproj": {}
+    "D:\\BridgeLabz Second batch\\AlgorithmPrograms\\AlgorithmPrograms.csproj": {}
   },
   "projects": {
-    "D:\\BridgeLabz Second batch\\AlgorithmPrograms\\AlgorithmPrograms\\AlgorithmPrograms.csproj": {
+    "D:\\BridgeLabz Second batch\\AlgorithmPrograms\\AlgorithmPrograms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BridgeLabz Second batch\\AlgorithmPrograms\\AlgorithmPrograms\\AlgorithmPrograms.csproj",
+        "projectUniqueName": "D:\\BridgeLabz Second batch\\AlgorithmPrograms\\AlgorithmPrograms.csproj",
         "projectName": "AlgorithmPrograms",
-        "projectPath": "D:\\BridgeLabz Second batch\\AlgorithmPrograms\\AlgorithmPrograms\\AlgorithmPrograms.csproj",
+        "projectPath": "D:\\BridgeLabz Second batch\\AlgorithmPrograms\\AlgorithmPrograms.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\BridgeLabz Second batch\\AlgorithmPrograms\\AlgorithmPrograms\\obj\\",
+        "outputPath": "D:\\BridgeLabz Second batch\\AlgorithmPrograms\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
