@@ -6,9 +6,9 @@
         {
             Console.WriteLine("Algorithm Programs");
 
-            Console.WriteLine("Prime Angram and Palindrome Numbers program");
+            Console.WriteLine("Task scheduler program");
 
-            PrimeAnagramPalindrome.CheckAnagramPalindrome();
+            TaskSchedule.TaskScheduler();
         }
     }
 }
