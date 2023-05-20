@@ -6,9 +6,9 @@
         {
             Console.WriteLine("Algorithm Programs");
 
-            Console.WriteLine("Bubble Sort program");
+            Console.WriteLine("Merge Sort program");
 
-            BubbleSort.Sorting();
+            MergeSort.MergeSorting();
         }
     }
 }
