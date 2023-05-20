@@ -6,9 +6,9 @@
         {
             Console.WriteLine("Algorithm Programs");
 
-            Console.WriteLine("Permutaion program");
+            Console.WriteLine("Binary Search program");
 
-            Permutations.PermuteExecute();
+            BinarySearch.SearchWord(@"D:\BridgeLabz Second batch\AlgorithmPrograms\BinaryFile.txt");
         }
     }
 }
