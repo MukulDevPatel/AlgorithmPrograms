@@ -17,7 +17,7 @@ namespace AlgorithmPrograms
 
             for (n = mn; n <= mx; n++)
             {
-                //Extract prime number to given range, a or flag
+                //Extract prime number to given range,
                 //loop the iteration for sqrt(n) times
                 a = 0;
                 for (int i = 2; i <= (int)Math.Sqrt(n); i++)
