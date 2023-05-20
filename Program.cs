@@ -6,9 +6,9 @@
         {
             Console.WriteLine("Algorithm Programs");
 
-            Console.WriteLine("Binary Search program");
+            Console.WriteLine("Insertion Sort program");
 
-            BinarySearch.SearchWord(@"D:\BridgeLabz Second batch\AlgorithmPrograms\BinaryFile.txt");
+            InsertionSort.InsertSort();
         }
     }
 }

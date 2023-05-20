@@ -1,1 +1,0 @@
-﻿This is Binary search method for search any word from attached with text file from these program.
