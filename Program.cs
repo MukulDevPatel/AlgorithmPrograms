@@ -1,45 +1,45 @@
-﻿using AlgorithmGenerics;
+﻿
+using AlgorithmPrograms.DataStructureProgramming;
 
-namespace AlgorithmPrograms
+class Program
 {
-    class Program
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
+        Console.WriteLine("Welcome to Data Structure Programming");
+
+        Console.WriteLine("Search word from the file");
+
+        LinkedList wordList = new LinkedList();
+        string fileName = "D:\\BridgeLabz Second batch\\AlgorithmPrograms\\DataStructureProgramming\\WordFile.txt";
+
+        // Read the text from a file and split it into words
+        //string[] text = File.ReadAllText(fileName).Split(' ');
+        string[] words = File.ReadAllText(fileName).Split(new char[] { ' ', '\t', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+
+        // Create the linked list
+        foreach (string word in words)
         {
-            Console.WriteLine("Algorithm Programs");
-            bool flag = true;
-            while (flag)
-            {
-                Console.WriteLine("\nChoose an option to execute\n1.BinarySearchGeneric\n2.InsertionGeneric\n3.BubbleGeneric\n4.MergeGeneric\n5.AnagramGeneric\n6.PrimeNumGeneric\n7.AnagramPalindromeGeneric  \n.Exit");
-                int option = Convert.ToInt32(Console.ReadLine());
-                switch (option)
-                {
-                    case 1:
-                        BinarySearchGeneric.WordSearch();
-                        break;
-                    case 2:
-                        InsertionGeneric.Sorting();
-                        break;
-                    case 3:
-                        BubbleGeneric.BubbleSort();
-                        break;
-                    case 4:
-                        MergeGeneric.MergeSort();
-                        break;
-                    case 5:
-                        AnagramGeneric.Anagram();
-                        break;
-                    case 6:
-                        PrimeNumGeneric.PrimeNum();
-                        break;
-                    case 7:
-                        AnagramPalindromeGeneric.FindAnaPalinrome();
-                        break;
-                    case 8:
-                        flag = false;
-                        break;
-                }
-            }
+            wordList.AddWord(word);
         }
+
+        // Take user input to search a word
+        Console.Write("Enter a word to search: ");
+        string searchWord = Console.ReadLine();
+
+        // Search the word in the list and perform necessary operations
+        if (wordList.SearchWord(searchWord))
+        {
+            Console.Write("Word found in the list: ");
+            wordList.RemoveWord(searchWord);
+        }
+        else
+        {
+            Console.Write("Word not found in the list: ");
+            wordList.AddWord(searchWord);
+        }
+
+        // Save the list into a file
+        wordList.SaveToFile(fileName);
+        wordList.Print();
     }
 }
