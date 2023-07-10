@@ -10,9 +10,8 @@ class Program
     {
         Console.WriteLine("Welcome to Data Structure Programming");
 
-        Console.WriteLine("Calender Program");
+        Console.WriteLine("Week Day and Date Program");
 
-        CalenderDate date = new CalenderDate();
-        date.Execute();
+        WeekObject.WeekPresent();
     }
 }
