@@ -7,7 +7,7 @@ class Program
     {
         Console.WriteLine("Welcome to Data Structure Programming");
 
-        Console.WriteLine("Get prime number Program");
+        Console.WriteLine("Prime Anagram Number Program");
 
         //FindInteger.Execute();
 
@@ -19,6 +19,8 @@ class Program
 
         //HashingFunction.HashingCheck();
 
-        Find2DArrayPrimeNumber.GetPrimeNum();
+        //Find2DArrayPrimeNumber.GetPrimeNum();
+
+        PrimeAnagramNumber.CheckAnagramPrimeNum();
     }
 }
