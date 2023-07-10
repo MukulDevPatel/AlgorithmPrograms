@@ -7,10 +7,12 @@ class Program
     {
         Console.WriteLine("Welcome to Data Structure Programming");
 
-        Console.WriteLine("Simple Balanced Paranthese Program");
+        Console.WriteLine("Bank Cash Counter Program");
 
         //FindInteger.Execute();
 
-        SimpleBalanceParantheses.Execute();
+        //SimpleBalanceParantheses.Execute();
+
+        BankingCashCounter.Execute();
     }
 }
