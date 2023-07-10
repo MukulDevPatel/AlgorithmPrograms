@@ -1,5 +1,8 @@
 ﻿
+using AlgorithmPrograms;
 using AlgorithmPrograms.DataStructureProgramming;
+using System;
+using System.Globalization;
 
 class Program
 {
@@ -7,22 +10,9 @@ class Program
     {
         Console.WriteLine("Welcome to Data Structure Programming");
 
-        Console.WriteLine("Anagram In Reverse Order Program");
+        Console.WriteLine("Calender Program");
 
-        //FindInteger.Execute();
-
-        //SimpleBalanceParantheses.Execute();
-
-        //BankingCashCounter.Execute();
-
-        //PalindromeChecker.CheckerExecute();
-
-        //HashingFunction.HashingCheck();
-
-        //Find2DArrayPrimeNumber.GetPrimeNum();
-
-        //PrimeAnagramNumber.CheckAnagramPrimeNum();
-
-        AnagramInReverseOrder.ReverseAnagram();
+        CalenderDate date = new CalenderDate();
+        date.Execute();
     }
 }
