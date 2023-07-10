@@ -7,7 +7,7 @@ class Program
     {
         Console.WriteLine("Welcome to Data Structure Programming");
 
-        Console.WriteLine("Hashing Function Search number slot Program");
+        Console.WriteLine("Get prime number Program");
 
         //FindInteger.Execute();
 
@@ -16,7 +16,9 @@ class Program
         //BankingCashCounter.Execute();
 
         //PalindromeChecker.CheckerExecute();
-        
-        HashingFunction.HashingCheck();
+
+        //HashingFunction.HashingCheck();
+
+        Find2DArrayPrimeNumber.GetPrimeNum();
     }
 }
