@@ -7,12 +7,14 @@ class Program
     {
         Console.WriteLine("Welcome to Data Structure Programming");
 
-        Console.WriteLine("Bank Cash Counter Program");
+        Console.WriteLine("Palindrome Checker Program");
 
         //FindInteger.Execute();
 
         //SimpleBalanceParantheses.Execute();
 
-        BankingCashCounter.Execute();
+        //BankingCashCounter.Execute();
+
+        PalindromeChecker.CheckerExecute();
     }
 }
