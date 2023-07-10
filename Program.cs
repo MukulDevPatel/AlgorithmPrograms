@@ -7,7 +7,7 @@ class Program
     {
         Console.WriteLine("Welcome to Data Structure Programming");
 
-        Console.WriteLine("Palindrome Checker Program");
+        Console.WriteLine("Hashing Function Search number slot Program");
 
         //FindInteger.Execute();
 
@@ -15,6 +15,8 @@ class Program
 
         //BankingCashCounter.Execute();
 
-        PalindromeChecker.CheckerExecute();
+        //PalindromeChecker.CheckerExecute();
+        
+        HashingFunction.HashingCheck();
     }
 }
