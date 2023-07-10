@@ -7,7 +7,7 @@ class Program
     {
         Console.WriteLine("Welcome to Data Structure Programming");
 
-        Console.WriteLine("Prime Anagram Number Program");
+        Console.WriteLine("Anagram In Reverse Order Program");
 
         //FindInteger.Execute();
 
@@ -21,6 +21,8 @@ class Program
 
         //Find2DArrayPrimeNumber.GetPrimeNum();
 
-        PrimeAnagramNumber.CheckAnagramPrimeNum();
+        //PrimeAnagramNumber.CheckAnagramPrimeNum();
+
+        AnagramInReverseOrder.ReverseAnagram();
     }
 }
