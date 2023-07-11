@@ -10,8 +10,8 @@ class Program
     {
         Console.WriteLine("Welcome to Data Structure Programming");
 
-        Console.WriteLine("Add Prime anagram numbers using Queue Program");
+        Console.WriteLine("Customize Message Using Function Program");
 
-        PrimeAnagramNumbersUsingQueue.Execute();
+        CustomizeMessageUsingFunction.CustomizeFunction();
     }
 }
