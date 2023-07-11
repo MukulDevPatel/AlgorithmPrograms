@@ -10,8 +10,8 @@ class Program
     {
         Console.WriteLine("Welcome to Data Structure Programming");
 
-        Console.WriteLine("Week Day and Date Stack and Queue Program");
+        Console.WriteLine("Add Prime anagram numbers using Queue Program");
 
-        WeekObjectUsingQueueInTwoStack.WeekStackQueue();
+        PrimeAnagramNumbersUsingQueue.Execute();
     }
 }

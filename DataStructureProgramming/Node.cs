@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace AlgorithmPrograms.DataStructureProgramming
 {
-    public class Node
+    public class Nodes
     {
-        public string Data { get; set; }
-        public Node Next { get; set; }
+        public string Value { get; set; }
+        public Nodes Next { get; set; }
 
-        public Node(string data)
+        public Nodes(string data)
         {
-            Data = data;
+            Value = data;
             Next = null;
         }
     }

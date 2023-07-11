@@ -8,21 +8,21 @@ namespace AlgorithmPrograms.DataStructureProgramming
 {
     public class LinkedList
     {
-        private Node head;
+        private Nodes head;
 
         //For add any word in the list
         public void AddWord(string word)
         {
             if (head == null)
             {
-                head = new Node(word);
+                head = new Nodes(word);
             }
             else
             {
-                Node current = head;
+                Nodes current = head;
                 while (current.Next != null)
                 {
-                    if (current.Data.Equals(word))
+                    if (current.Value.Equals(word))
                     {
                         RemoveWord(word);
                         return;
@@ -30,13 +30,13 @@ namespace AlgorithmPrograms.DataStructureProgramming
                     current = current.Next;
                 }
 
-                if (current.Data.Equals(word))
+                if (current.Value.Equals(word))
                 {
                     RemoveWord(word);
                     return;
                 }
 
-                current.Next = new Node(word);
+                current.Next = new Nodes(word);
             }
         }
 
@@ -46,16 +46,16 @@ namespace AlgorithmPrograms.DataStructureProgramming
             if (head == null)
                 return;
 
-            if (head.Data.Equals(word))
+            if (head.Value.Equals(word))
             {
                 head = head.Next;
                 return;
             }
 
-            Node current = head;
+            Nodes current = head;
             while (current.Next != null)
             {
-                if (current.Next.Data.Equals(word))
+                if (current.Next.Value.Equals(word))
                 {
                     current.Next = current.Next.Next;
                     return;
@@ -69,10 +69,10 @@ namespace AlgorithmPrograms.DataStructureProgramming
         {
             using (StreamWriter writer = new StreamWriter(fileName))
             {
-                Node current = head;
+                Nodes current = head;
                 while (current != null)
                 {
-                    writer.WriteLine(current.Data);
+                    writer.WriteLine(current.Value);
                     current = current.Next;
                 }
             }
@@ -81,10 +81,10 @@ namespace AlgorithmPrograms.DataStructureProgramming
         //This will give result in boolean form (true or false)
         public bool SearchWord(string word)
         {
-            Node current = head;
+            Nodes current = head;
             while (current != null)
             {
-                if (current.Data.Equals(word))
+                if (current.Value.Equals(word))
                     return true;
 
                 current = current.Next;
@@ -95,10 +95,10 @@ namespace AlgorithmPrograms.DataStructureProgramming
         //This is display the result
         public void Print()
         {
-            Node current = head;
+            Nodes current = head;
             while (current != null)
             {
-                Console.Write(current.Data + " ");
+                Console.Write(current.Value + " ");
                 current = current.Next;
             }
         }
